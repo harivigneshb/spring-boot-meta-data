@@ -1,0 +1,35 @@
+// http://localhost:9191/modules
+
+[
+  {
+    "module_id": 1,
+    "module_name": "On-boarding"
+  },
+  {
+    "module_id": 2,
+    "module_name": "Attendance"
+  }
+]
+
+// http://localhost:9191/moduleById/1
+
+{
+  "module_id": 1,
+  "module_name": "On-boarding"
+}
+
+Create:
+http://localhost:9191/addModule
+{
+  "module_id": 3,
+  "module_name": "BGV"
+}
+
+Update:
+http://localhost:9191/updateModule/2
+{
+"module_name": "Attendance-Check"
+}
+
+delete:
+http://localhost:9191/delete/2

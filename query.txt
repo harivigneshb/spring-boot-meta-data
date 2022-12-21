@@ -1,0 +1,7 @@
+CREATE TABLE `optimum_practice_schema`.`modules` (
+  `module_id` INT NOT NULL,
+  `module_name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`module_id`));
+  
+  INSERT INTO optimum_practice_schema.modules(module_id,module_name) VALUES(1,'On-boarding');
+  INSERT INTO optimum_practice_schema.modules(module_id,module_name) VALUES(2,'Attendance');
