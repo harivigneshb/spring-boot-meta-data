@@ -1,14 +1,12 @@
-/*package com.optimuminfo.metadata.entity;
+package com.optimuminfo.metadata.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -23,4 +21,4 @@ public class ModuleColumnValues {
 	private int module_column_id;
 	private String module_colum_key;
 	private String module_column_key_value;
-}*/
+}
